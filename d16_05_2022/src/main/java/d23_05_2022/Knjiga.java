@@ -62,7 +62,8 @@ public class Knjiga {
     public void stampaj(){
         System.out.println(this.isbn);
         System.out.println(this.naziv + " - " + this.godinaIzdanja);
-        System.out.println("Autor: " + this.autor.getIme() + " " + this.autor.getPrezime());
+        this.autor.stampaj();
+
     }
 
 

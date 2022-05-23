@@ -12,6 +12,7 @@ public class MainBiblioteka {
         b.setIme("Miroslav");
         b.setPrezime("Miskovic");
 
+
         Knjiga r = new Knjiga();
         r.setIsbn(123456);
         r.setNaziv("Dobro jutro gospodine");
